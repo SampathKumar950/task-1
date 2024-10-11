@@ -9,6 +9,19 @@
         color: black;
     }
 }
+.search{
+    padding-left:250px;
+}
+#sbar{
+    padding-left: 120px;
+    padding-right:8px;
+    padding-top:8px;
+    padding-bottom:10px;
+}
+#simg{
+    max-width:31px;
+    max-height: 31px;
+}
 .navbar{
     display : flex;
     align-items : center;
