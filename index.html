@@ -2,27 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Ushop </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushop</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
-    <div class="header">
+    <header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'>Ushop</li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
         <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <p>Ushop</text>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="images/cart.png" width="30px" height="30px">
-            </div>
             <div class="row">
                 <div class="col-2">
                     <h1>Give Your Workout<br> A New Style!!</h1>
@@ -41,7 +44,6 @@
                 </div>
             </div>
         </div>
-    </div>
 
     <!---------Featured --------------->
     <div class="categories">
@@ -59,31 +61,31 @@
             </div>
         </div>
     </div>
-    <!---------Featured Pro --------------->
-    <div class="small-container">
+     <!---------Featured Pro --------------->
+     <div class="small-container">
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="images/product-1.webp">
-                <h4>Nike</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-2.jpg">
-                <h4>Arbacas</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-3.webp">
-                <h4>Red Tape</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-4.jpg">
-                <h4>JorDan</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
@@ -96,31 +98,31 @@
         <a href="#">3</a>
         <a href="#">Next >></a>
     </div>
-    <!---------New-Arrivals --------------->
-    <div class="small-container">
+     <!---------New-Arrivals --------------->
+     <div class="small-container">
         <h2 class="title">New-Arrivals</h2>
         <div class="row">
             <div class="col-4">
                 <img src="images/product-1.webp">
-                <h4>Nike</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-2.jpg">
-                <h4>Arbacas</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-3.webp">
-                <h4>Red Tape</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
             <div class="col-4">
                 <img src="images/product-4.jpg">
-                <h4>JorDan</h4>
+                <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
@@ -133,8 +135,8 @@
         <a href="#">3</a>
         <a href="#">Next >></a>
     </div>
-    <!---------offer----------->
-    <div class="offer">
+     <!---------offer----------->
+     <div class="offer">
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
@@ -150,6 +152,7 @@
             </div>
         </div>
     </div>
+     <!---------contactForm----------->
     <div class="contact-form">
         <h2>Contact Us</h2>
         <form action="#">
