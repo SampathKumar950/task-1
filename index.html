@@ -6,46 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ushop</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+</head>
 <body>
-    <header>
-    <nav>
-        <ul class='nav-bar'>
-            <li class='logo'>Ushop</li>
-            <input type='checkbox' id='check' />
-            <span class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-    </nav>
-    </header>
     <div class="container">
+        <div class="grid-container-element">
+           <div class="logo">Ushop</div>
+            <div class="nbar">
+                <input type="checkbox" id="toggle">
+                <label for="toggle">&#9776;</label>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+        
         <div class="row">
             <div class="col-2">
-                    <h1>Give Your Workout<br> A New Style!!</h1>
-                    <p>Success isn't always about greatness , its about consistency.<br> Consistent hardwork 
-                        gains success.<br> Greatness will come.</p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
+                <h1>Give Your Workout<br> A New Style!!</h1>
+                <p>Success isn't always about greatness , its about consistency.<br> Consistent hardwork 
+                    gains success.<br> Greatness will come.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
             </div>
             <div class="col-2" id="slider">
-                    <figure>
-                        <img src="images/image1.png">
-                        <img src="images/image2.png">
-                        <img src="images/image3.png">
-                        <img src="images/image4.png">
-                        <img src="images/image1.png">
-                    </figure>
+                <figure>
+                    <img src="images/image1.png">
+                    <img src="images/image2.png">
+                    <img src="images/image3.png">
+                    <img src="images/image4.png">
+                    <img src="images/image1.png">
+                </figure>
             </div>
         </div>
     </div>
 
-    <!---------Featured --------------->
+    <!---------Show Case Pro--------------->
     <div class="categories">
         <div class="small-container">
             <div class="row">
@@ -64,76 +64,136 @@
      <!---------Featured Pro --------------->
      <div class="small-container">
         <h2 class="title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
+        <div class="rowScroll">
+            <div class="col">
                 <img src="images/product-1.webp">
-                <h4>Red Printed T-shirt</h4>
+                <h4>Shoe-Product</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <img src="images/product-2.jpg">
-                <h4>Red Printed T-shirt</h4>
+                <h4>Shoe-Product</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <img src="images/product-3.webp">
-                <h4>Red Printed T-shirt</h4>
+                <h4>Shoe-Product</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
-            <div class="col-4">
+            <div class="col">
                 <img src="images/product-4.jpg">
                 <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
+            <div class="col">
+                <img src="images/product-3.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="col">
+                <img src="images/product-4.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="col">
+                <img src="images/product-3.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="col">
+                <img src="images/product-4.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
         </div>
-    </div>
-    <div class="pagination">
-        <a href="#"> << Prev</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">Next >></a>
     </div>
      <!---------New-Arrivals --------------->
      <div class="small-container">
         <h2 class="title">New-Arrivals</h2>
-        <div class="row">
-            <div class="col-4">
+        <div class="block">
+            <div class="product">
+                <img src="images/product-1.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-2.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-3.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-4.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-1.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-2.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-3.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-4.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-3.webp">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
+                <img src="images/product-4.jpg">
+                <h4>Shoe-Product</h4>
+                <p> Rating : 4.5 <p>
+                <p>  &#8377;599</p>
+            </div>
+            <div class="product">
                 <img src="images/product-1.webp">
                 <h4>Red Printed T-shirt</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
-            <div class="col-4">
+            <div class="product">
                 <img src="images/product-2.jpg">
-                <h4>Red Printed T-shirt</h4>
-                <p> Rating : 4.5 <p>
-                <p>  &#8377;599</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-3.webp">
-                <h4>Red Printed T-shirt</h4>
-                <p> Rating : 4.5 <p>
-                <p>  &#8377;599</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-4.jpg">
-                <h4>Red Printed T-shirt</h4>
+                <h4>Shoe-Product</h4>
                 <p> Rating : 4.5 <p>
                 <p>  &#8377;599</p>
             </div>
         </div>
     </div>
     <div class="pagination">
-        <a href="#"> << Prev</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">Next >></a>
     </div>
      <!---------offer----------->
      <div class="offer">
@@ -169,5 +229,6 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
